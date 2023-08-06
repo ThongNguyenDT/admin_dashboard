@@ -80,14 +80,14 @@ const App = () => {
                 <Route path="/admin/color-picker" element={<ColorPicker />} />
 
                 {/* charts  */}
-                <Route path="/line" element={<Line />} />
-                <Route path="/area" element={<Area />} />
-                <Route path="/bar" element={<Bar />} />
-                <Route path="/pie" element={<Pie />} />
-                <Route path="/financial" element={<Financial />} />
-                <Route path="/color-mapping" element={<ColorMapping />} />
-                <Route path="/pyramid" element={<Pyramid />} />
-                <Route path="/stacked" element={<Stacked />} />
+                <Route path="/admin/line" element={<Line />} />
+                <Route path="/admin/area" element={<Area />} />
+                <Route path="/admin/bar" element={<Bar />} />
+                <Route path="/admin/pie" element={<Pie />} />
+                <Route path="/admin/financial" element={<Financial />} />
+                <Route path="/admin/color-mapping" element={<ColorMapping />} />
+                <Route path="/admin/pyramid" element={<Pyramid />} />
+                <Route path="/admin/stacked" element={<Stacked />} />
 
               </Routes>
             </div>
