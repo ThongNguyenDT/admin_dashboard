@@ -152,22 +152,22 @@ const Ecommerce = () => {
         {/*    </button> */}
         {/*  </div> */}
 
-          <div className="mt-10 ">
-            {weeklyStats.map((item) => (
-              <div key={item.title} className="flex justify-between mt-4 w-full">
-                <div className="flex gap-4">
-                  <button
-                    type="button"
-                    style={{ background: item.iconBg }}
-                    className="text-2xl hover:drop-shadow-xl text-white rounded-full p-3"
-                  >
-                    {item.icon}
-                  </button>
-                  <div>
-                    <p className="text-md font-semibold">{item.title}</p>
-                    <p className="text-sm text-gray-400">{item.desc}</p>
-                  </div>
-                </div>
+        {/*  <div className="mt-10 "> */}
+        {/*    {weeklyStats.map((item) => ( */}
+        {/*      <div key={item.title} className="flex justify-between mt-4 w-full"> */}
+        {/*        <div className="flex gap-4"> */}
+        {/*          <button */}
+        {/*            type="button" */}
+        {/*            style={{ background: item.iconBg }} */}
+        {/*            className="text-2xl hover:drop-shadow-xl text-white rounded-full p-3" */}
+        {/*          > */}
+        {/*            {item.icon} */}
+        {/*          </button> */}
+        {/*          <div> */}
+        {/*            <p className="text-md font-semibold">{item.title}</p> */}
+        {/*            <p className="text-sm text-gray-400">{item.desc}</p> */}
+        {/*          </div> */}
+        {/*        </div> */}
 
                 <p className={`text-${item.pcColor}`}>{item.amount}</p>
               </div>
