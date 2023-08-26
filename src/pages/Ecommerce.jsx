@@ -169,13 +169,13 @@ const Ecommerce = () => {
         {/*          </div> */}
         {/*        </div> */}
 
-                <p className={`text-${item.pcColor}`}>{item.amount}</p>
-              </div>
-            ))}
-            <div className="mt-4">
-              <SparkLine currentColor={currentColor} id="area-sparkLine" height="160px" type="Area" data={SparklineAreaData} width="320" color="rgb(242, 252, 253)" />
-            </div>
-          </div>
+        {/*        <p className={`text-${item.pcColor}`}>{item.amount}</p> */}
+        {/*      </div> */}
+        {/*    ))} */}
+        {/*    <div className="mt-4"> */}
+        {/*      <SparkLine currentColor={currentColor} id="area-sparkLine" height="160px" type="Area" data={SparklineAreaData} width="320" color="rgb(242, 252, 253)" /> */}
+        {/*    </div> */}
+        {/*  </div> */}
 
         </div>
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
