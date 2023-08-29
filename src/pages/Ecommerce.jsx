@@ -180,7 +180,7 @@ const Ecommerce = () => {
         {/* </div> */}
         <div className="w-full bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 px-12 mx-32 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">MedicalPro Branding</p>
+            <p className="text-xl font-semibold">Our team</p>
             <button type="button" className="text-xl font-semibold text-gray-400">
               <IoIosMore />
             </button>
