@@ -220,15 +220,15 @@ const Ecommerce = () => {
               ))}
             </div>
           </div>
-          <div className="flex justify-between items-center mt-5 border-t-1 border-color">
-            <div className="mt-3">
-              <Button
-                color="white"
-                bgColor={currentColor}
-                text="Add"
-                borderRadius="10px"
-              />
-            </div>
+          {/* <div className="flex justify-between items-center mt-5 border-t-1 border-color"> */}
+          {/*  <div className="mt-3"> */}
+          {/*    <Button */}
+          {/*      color="white" */}
+          {/*      bgColor={currentColor} */}
+          {/*      text="Add" */}
+          {/*      borderRadius="10px" */}
+          {/*    /> */}
+          {/*  </div> */}
 
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
