@@ -72,7 +72,6 @@ const Navbar = () => {
           </div>
         </TooltipComponent>
 
-        {isClicked.cart && (<Cart />)}
         {isClicked.notification && (<Notification />)}
         {isClicked.userProfile && (<UserProfile />)}
       </div>
